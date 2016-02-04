@@ -1,3 +1,4 @@
 tasks:
   build0:
-    build: web
+    build:
+      - web
