@@ -6,7 +6,7 @@ tasks:
         app:
           image: docker.io/alistairstead/continuous-generators
 
-  # Create the base environment if not already existing
+  # Create the environment
   environment:
     deploy:
       cluster: master.fra-01
