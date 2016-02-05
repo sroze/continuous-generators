@@ -10,11 +10,11 @@ tasks:
   environment:
     deploy:
       cluster: master.fra-01
-        services:
-          app:
-            specification:
-              accessibility:
-                from_external: true
-              source:
-                image: docker.io/alistairstead/continuous-generators
-                tag: latest
+      services:
+        app:
+          specification:
+            accessibility:
+              from_external: true
+            source:
+              image: docker.io/alistairstead/continuous-generators
+              tag: latest
